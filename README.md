@@ -44,7 +44,7 @@ int main() {
 设置服务路由和执行函数相绑定
 然后开始监听全部事件
 整体逻辑函数底层使用协程执行
-### 3）服务启动配置
+### 3.服务启动配置
 /apply_sylar/sylar/service/init_server.h
 在Listen函数中绑定端口和ip启动，并且提供了InitServer()函数来初始化其他的配置
 
